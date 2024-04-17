@@ -3,6 +3,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
    <title>Document</title>
 </head>
 
@@ -12,26 +13,28 @@
      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias sunt ipsam minima error quas laborum reiciendis dolorem nemo? Accusantium numquam facilis natus aperiam cum omnis quo voluptatem ipsam provident expedita!</p>
   </div>
 
-  <div class="body w-75 mx-auto">
+    <div class="body w-75 mx-auto border border-2 rounded border-dark">
 
-     <form>
-        <div class="row mb-3 w-75">
-          <label for="inputEmail3" class="col-sm-2 col-form-label">Your E-mail</label>
-          <div class="col-sm-10">
-            <input type="email" class="form-control" id="inputEmail3" placeholder="Your E-mail">
+      <form>
+          <div class="row mb-3 w-75">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Your E-mail</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="Your E-mail">
+            </div>
           </div>
-        </div>
 
-        <div class="row mb-3 w-75">
-          <label for="inputPassword3" class="col-sm-2 col-form-label">Your Message</label>
-          <div class="col-sm-10">
-            <input type="password" class="form-control" id="inputPassword3" placeholder="Please enter your message here...">
+          <div class="row mb-3 w-75">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Your Message</label>
+            <div class="col-sm-10">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Please enter your message here..."></textarea>
+            </div>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <button class="btn btn-primary me-md-2" type="button">Submit</button>
+            </div>
+          
           </div>
-        </div>
+        </form>
 
-            <button type="submit" class="btn btn-primary float-end">Sign in</button>
-
-      </form>
 
 
 
